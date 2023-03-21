@@ -5,14 +5,14 @@
 """
 
 list_1 = ['Hi', 'ananas', 2, None, 75, 'pizza', 36, 100]
-# finalNumber = 0
-# for item in list_1:
-#     if isinstance(item, str):
-#         if 'a' in str(item):
-#             print(item)
-#     elif isinstance(item, int):
-#         finalNumber += item
-# print(finalNumber)
+finalNumber = 0
+for item in list_1:
+    if isinstance(item, str):
+        if 'a' in str(item):
+            print(item)
+    elif isinstance(item, int):
+        finalNumber += item
+print(finalNumber)
 
 #############
 print('Original list - ', list_1)

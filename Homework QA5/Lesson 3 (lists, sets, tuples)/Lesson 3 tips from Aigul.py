@@ -33,7 +33,7 @@
 # print(l)
 # print(id(l))
 
-# # .append and .extend()
+# .append and .extend()
 # add = 'extra'
 # l.append(add)
 # l1.extend(add)
